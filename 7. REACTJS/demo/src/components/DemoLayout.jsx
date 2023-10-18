@@ -17,7 +17,7 @@ export default function DemoLayout() {
 
       <div className="body">
         <div className="container">
-          <div className="banner p-2 my-2 border border-primary">
+          <div className="banner p-4 my-3 border border-primary">
             <h2>A Warm Welcome!</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
@@ -28,15 +28,71 @@ export default function DemoLayout() {
               Call to action!
             </Button>
           </div>
-          <div className="items_group">
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
+          <div className="items_group d-flex align-items-center text-center d-block py-3">
+            <div className="items border text-center mx-2 ">
+              <div className="img">
+                <img className="bg-dark" src="" alt="" />
+              </div>
+              <div className="items_content d-inline-block">
+                <h3>Card title</h3>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique quam corporis sit, alias excepturi maiores!
+                </span>
+              </div>
+              <div className="items_button p-3 border border-bottom-0">
+                <Button>Find Out More!</Button>
+              </div>
+            </div>
+            <div className="items border text-center mx-2 ">
+              <div className="img">
+                <img className="bg-dark" src="" alt="" />
+              </div>
+              <div className="items_content">
+                <h3>Card title</h3>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique quam corporis sit, alias excepturi maiores!
+                </span>
+              </div>
+              <div className="items_button p-3 border border-bottom-0">
+                <Button>Find Out More!</Button>
+              </div>
+            </div>
+            <div className="items border text-center mx-2 ">
+              <div className="img">
+                <img src="" alt="" />
+              </div>
+              <div className="items_content">
+                <h3>Card title</h3>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique quam corporis sit, alias excepturi maiores!
+                </span>
+              </div>
+              <div className="items_button p-3 border border-bottom-0">
+                <Button>Find Out More!</Button>
+              </div>
+            </div>
+            <div className="items border text-center mx-2 ">
+              <div className="img">
+                <img src="" alt="" />
+              </div>
+              <div className="items_content">
+                <h3>Card title</h3>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique quam corporis sit, alias excepturi maiores!
+                </span>
+              </div>
+              <div className="items_button p-3">
+                <Button>Find Out More!</Button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <footer className="bg-dark p-3 text-white">
+      <footer className="bg-dark p-3 text-white text-center">
         Copyright Your Website 2019
       </footer>
     </div>
