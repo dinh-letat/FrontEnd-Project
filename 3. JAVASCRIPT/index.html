@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="dialog">
+      <input type="text" id="user" name="username" />
+      <input type="password" id="pass" name="password" />
+      <input type="submit" onclick="add()" value="Add" />
+    </form>
+    <script>
+      const arrCar = [];
+      function add() {
+        let userName = document.getElementById("user").value;
+        let password = document.getElementById("pass").value;
+        let acc = `${userName} ${password}`;
+        arrCar.push(acc);
+
+        arrCar.forEach(element => {
+          console.log(arrCar)
+        });
+      }
+    </script>
+  </body>
+</html>
